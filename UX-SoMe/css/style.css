@@ -1,0 +1,1030 @@
+/**
+ * file: style.css
+ * purpose: styles, animation etc
+ * further development: meyer reset perhaps?
+ **/
+
+
+/* GENERAL RULES */
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'din-2014', sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.625em;
+    font-family: 'din-2014', sans-serif;
+    margin: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+h3 {
+    font-family: 'din-2014', sans-serif;
+}
+
+h4 {
+    font-family: 'din-2014', sans-serif;
+}
+
+p {
+    font-size: 15px;
+    font-family: 'din-2014', sans-serif;
+    font-weight: 400;
+}
+
+
+
+.backarrow-grey-background {
+    background-color: #f7f7f7;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+}
+
+
+
+
+
+.backarrow-grey-background img {
+    cursor: pointer;
+    vertical-align: baseline;
+
+}
+
+.grey-background {
+    background-color: #f8f8f8;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 8px;
+
+}
+
+.hvid-div {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.se-alle {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: flex-end;
+
+
+
+}
+
+.se-mere-pil {
+    height: 12px;
+    cursor: pointer;
+    padding-left: 5px;
+
+}
+
+.start {
+    padding-top: 8%;
+    margin: 0;
+}
+
+.sections {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 220px;
+
+}
+
+/* SPECIFIC BOOK */
+
+.bog {
+    width: 40%;
+    height: 50%;
+    padding-right: 20px;
+
+}
+
+#available {
+    background-color: green;
+    width: 12px;
+    height: 12px;
+    border-radius: 100px;
+    margin-left: 10px;
+}
+
+#hjemme {
+    display: flex;
+    align-items: center;
+}
+
+
+#mdu {
+    background-color: #EC87C0;
+    width: 18px;
+    height: 18px;
+    border-radius: 100px;
+    margin-bottom: 50%;
+
+
+
+
+}
+
+
+
+.uddannelser {
+    white-space: nowrap;
+    padding-left: 30px;
+
+
+}
+
+#it {
+    background-color: #656D78;
+    width: 18px;
+    height: 18px;
+    border-radius: 100px;
+    margin-bottom: 50%;
+}
+
+#inno {
+    background-color: #FD9644;
+    width: 18px;
+    height: 18px;
+    border-radius: 100px;
+}
+
+#favoritter {
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    padding-top: 70px;
+    cursor: pointer;
+}
+
+#rent-display {
+    display: flex;
+    width: 100%;
+
+}
+
+
+
+#book-resume {
+    color: grey;
+    line-height: 1.5;
+}
+
+.rent {
+    width: 100%;
+    background-color: #41687E;
+    color: white;
+    padding: 20px 0px;
+    border-radius: 6px;
+    margin: 8px 0px;
+    font-size: 1em;
+    cursor: pointer;
+    font-family: 'din-2014', sans-serif;
+}
+
+.info-til-bog {
+    line-height: 1.5;
+
+}
+
+
+
+.boeger {
+    width: 130px;
+    height: 170px;
+
+}
+
+.recommendations {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 2%;
+    padding-bottom: 4%;
+}
+
+.recommendations p {
+    font-size: 12px;
+}
+
+.hvid-div h3 {
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-style: italic;
+    font-family: 'din-2014', sans-serif;
+}
+
+/* END OF GENERAL RULES */
+
+/* FORSIDE */
+
+.plantegning {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.grey-background2 {
+    background-color: #EDEDED;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0;
+}
+
+
+
+.begivenheder-billede {
+    width: 100%;
+    height: 65%;
+
+}
+
+.begivenheder {
+    box-sizing: border-box;
+    width: 250px;
+    height: 210px;
+    border: 0px solid #41687E;
+    background-color: #41687E;
+    margin-bottom: 5%;
+    margin-right: 10px;
+
+
+
+
+}
+
+.begivenheder p {
+    color: #ffffff;
+}
+
+.dato {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1.5px solid #ffffff;
+    margin-top: 2%;
+    margin-bottom: 0;
+    margin-left: 3%;
+    display: flex;
+
+
+
+}
+
+.dato p {
+    margin: 3px 0px 0px 15px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.dato div p {
+    white-space: nowrap;
+    margin-left: 20px;
+    text-align: left;
+    margin-bottom: 0;
+    margin-top: 0;
+
+
+}
+
+
+
+.begivenhed-info {
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+
+}
+
+.begivenheder-container {
+    display: flex;
+    position: absolute;
+    cursor: pointer;
+
+}
+
+
+.nyheder {
+    margin-top: 4px;
+    margin-left: 8px;
+    margin-bottom: 3px;
+    color: #ffffff;
+}
+
+
+.nyheds-info {
+    white-space: nowrap;
+    font-size: 12px;
+    text-align: left;
+    margin-left: 8px;
+    margin-top: 0;
+    color: #ffffff;
+
+}
+
+
+
+/* PROFILE */
+
+#profilbillede {
+    border-radius: 50%;
+    width: 30%;
+    margin: auto;
+    padding: auto;
+    display: flex;
+}
+
+#navn {
+    text-align: center;
+}
+
+.vertical-menu {
+    width: 100%;
+    border: 1.5px solid #EDEDED;
+   
+
+}
+
+.vertical-menu a {
+    background-color: #f7f7f7;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    font-family: 'din-2014', sans-serif;
+    border: 1.5px solid #EDEDED;
+
+}
+
+.vertical-menu .ikoner{
+    padding-right: 10px;
+}
+
+.ikoner {
+    height: 20px;
+    vertical-align: text-top;
+
+}
+
+#next-page {
+    height: 15px;
+    padding-left: 240px;
+}
+
+#next-page2 {
+    height: 15px;
+    padding-left: 225px;
+}
+
+#next-page3 {
+    height: 15px;
+    padding-left: 255px;
+}
+
+#next-page4 {
+    height: 15px;
+    padding-left: 235px;
+}
+
+#next-page5 {
+    height: 15px;
+    padding-left: 274px;
+
+}
+
+#log-ud {
+    border: 1.5px solid #41687E;
+    background-color: #41687E;
+    margin: 50px 0px 0px 0px;
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+
+
+}
+
+/* NOTIFICATIONS */
+
+#notifikationsside {
+    display: flex;
+    vertical-align: text-bottom;
+    margin: 0;
+    background-color: #f7f7f7;
+    padding-top: 2%;
+    padding-left: 2%;
+
+
+}
+
+#notifikationsside a {
+    padding-right: 2%;
+}
+
+#notifikationstekst {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #8B8B8B;
+}
+
+#aflevering {
+    display: flex;
+    padding-top: 20px;
+
+
+}
+
+#aflevering .info-til-bog p {
+    margin: 0;
+}
+
+#forny {
+    margin-top: 20px;
+}
+
+
+/* END OF NOTIFICATION SITE */
+
+
+
+
+
+
+
+/* UDDANNELSES BAR */
+
+#backarrow-white-background {
+    background-color: #ffffff;
+}
+
+#byggeri {
+
+    background-color: #ffce54;
+    width: 18px;
+    height: 18px;
+    border-radius: 100px;
+    margin-left: 12px;
+    margin-top: 12px;
+
+}
+
+
+#finans {
+
+    background-color: #5d9cec;
+    width: 18px;
+    height: 18px;
+    border-radius: 100px;
+    margin-left: 12px;
+    margin-top: 12px;
+
+}
+
+
+#innovation {
+
+    background-color: #fd9644;
+    width: 18px;
+    height: 18px;
+    border-radius: 100px;
+    margin-left: 12px;
+    margin-top: 12px;
+
+}
+
+#tek {
+
+    background-color: #656d78;
+    width: 18px;
+    height: 18px;
+    border-radius: 100px;
+    margin-left: 12px;
+    margin-top: 12px;
+
+}
+
+
+
+#jordbrug {
+
+    background-color: #e1b083;
+    width: 18px;
+    height: 18px;
+    border-radius: 100px;
+    margin-left: 12px;
+    margin-top: 12px;
+}
+
+#lab {
+
+    background-color: #ac92ec;
+    width: 18px;
+    height: 18px;
+    border-radius: 100px;
+    margin-left: 12px;
+    margin-top: 12px;
+
+}
+
+
+#miljoe {
+
+    background-color: #a0d468;
+    width: 18px;
+    height: 18px;
+    border-radius: 100px;
+    margin-left: 12px;
+    margin-top: 12px;
+
+}
+
+#salg {
+
+    background-color: #fc6e51;
+    width: 18px;
+    height: 18px;
+    border-radius: 100px;
+    margin-left: 12px;
+    margin-top: 12px;
+
+}
+
+#mdu2 {
+
+    background-color: #EC87C0;
+    width: 18px;
+    height: 18px;
+    border-radius: 100px;
+    margin-left: 12px;
+    margin-top: 12px;
+
+}
+
+
+
+
+
+.dotted-container {
+    display: flex;
+    margin: 2%;
+    border-bottom: 1px solid #D6D6D6;
+}
+
+
+
+}
+
+.education-border {
+    border-bottom: 5px solid grey;
+}
+
+
+
+.color-dots {
+    padding-left: 18px;
+    font-size: 18px;
+}
+
+
+
+/* NAVBAR */
+
+
+
+header {
+    display: block;
+    z-index: 2;
+    background-color: #41687E;
+    margin: 0;
+    padding: 0;
+    font-family: 'din-2014', sans-serif;
+}
+
+#logo-burger {
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#logo-burger label {
+    display: block;
+    font-size: 2em;
+    cursor: pointer;
+    float: right;
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+
+#toggle:checked + .main-nav {
+    display: block;
+
+}
+
+
+.main-nav {
+    display: none;
+    background-color: #ffffff;
+    list-style: none;
+    margin-left: -38px;
+
+
+
+}
+
+.main-nav li {
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+
+
+}
+
+
+
+
+
+.main-nav li a {
+    color: black;
+    list-style: none;
+    font-family: 'din-2014', sans-serif;
+    font-size: 20px;
+}
+
+
+
+.main-nav a.active {
+    color: #000;
+}
+
+.hidden {
+    display: none;
+}
+
+.profil-ikon {
+    height: 30px;
+    padding-top: 15px;
+
+}
+
+.search-ikon {
+    height: 30px;
+    padding-left: 290px;
+}
+
+
+
+
+.main-nav a {
+    float: none;
+    display: block;
+    color: #000000;
+    text-align: left;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.main-nav li a img {
+    padding-left: 58%;
+}
+
+#kontact-section {
+    background-color: #C5D1D8;
+    margin-top: 55px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+#kontact-section a {
+    color: #41687E;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    padding: 5px 0px 5px 0px;
+}
+
+#kontact-section h5 {
+    color: #5C5C5C;
+    font-size: 15px;
+    margin: 20px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+#kontact-section p {
+    color: #5C5C5C;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* END OF KONTACTS */
+
+/* OM OS */
+
+.om-os {
+    background-color: #f7f7f7;
+}
+
+.om-os .background-grey-background {
+
+    padding-left: 12px;
+    padding-top: 12px;
+
+
+}
+
+
+
+.om-os section {
+    padding: 12px;
+}
+
+.om-os section h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 23px;
+    margin: 0;
+    padding: 0;
+}
+
+.om-os-tekst {
+    line-height: 1.5;
+    text-align: center;
+
+}
+
+#bibliotek {
+    width: 100%;
+    height: 210px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+
+}
+
+.faciliteter {
+    background-color: rgba(65, 104, 126, 30%);
+
+}
+
+.faciliteter p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.om-os2 {
+    background-color: #ffffff;
+}
+
+.om-os section h2 {
+    font-size: 20px;
+}
+
+.om-os2 p {
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #f7f7f7;
+    padding: 12px;
+}
+
+footer h4 {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+
+address {
+    font-style: normal;
+    text-align: center;
+    font-family: 'din-2014', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* END OF OM OS */
+
+/* NYHEDER */
+
+.begivenheder2 {
+    box-sizing: border-box;
+    width: 100%;
+    height: 230px;
+    border: 0px solid #41687E;
+    background-color: #41687E;
+    margin-bottom: 5%;
+    cursor: pointer;
+}
+
+
+/* - Opening hours frontpage - */
+
+#opening-hours-front {
+    background-color: #fff;
+    border-left: 10px #41687E solid;
+    height: 100px;
+}
+
+.tab {
+    padding-left: 25px;
+    margin: 0px;
+    padding-top: 15px;
+}
+
+.opening-hours-time {
+    font-size: 2em;
+}
+
+#opening-hours-front #now {
+    padding-right: 30px;
+}
+
+#opening-hours-front #openNow {
+    padding-right: 10px;
+    font-size: 1em;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.roed {
+    width: 11px;
+    height: 11px;
+    background-color: red;
+    border-radius: 25px;
+}
+
+.groen {
+    width: 11px;
+    height: 11px;
+    background-color: green;
+    border-radius: 25px;
+}
+
+#flexflex {
+    display: flex;
+    align-items: flex-start
+}
+
+#now {
+    padding-top: 5px;
+}
+
+
+
+/* - Mapbox - */
+
+
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.marker {
+    background-image: url('images/placeholder-2.png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.mapboxgl-popup {
+    max-width: 200px;
+}
+
+.mapboxgl-popup-content {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* SCAN BOG */
+
+.scan-bog-tekst{
+    text-align: center;
+}
+
+#scanned-book{
+    width: 100%;
+}
+
+.scan-bog-tekst2{
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+/* SEARCH SITE */
+
+#search-bar{
+    display: flex;
+    background-color: #ffffff;
+    padding: 12px;
+    
+   
+}
+
+
+#search-bar img{
+    margin-right: 10px;
+    height: 30px;
+    padding-top: 5px;
+}
+
+#submit{
+    display: none;
+    
+}
+
+input{
+    border: 1px solid #707070;
+    border-radius: 4px;
+    padding: 10px;
+    width: 330px;
+    font-family: 'din-2014', sans-serif;
+}
+
+#looking-for{
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 5px;
+}
+
+#looking-for p{
+    font-style: italic;
+    color: #6C6C6C;
+}
+
+.books{
+    width: 120px;
+    margin-right: 10px;
+    
+}
+
+.foreslag{
+    display: flex;
+    padding: 12px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.foreslag h3 {
+margin: 0;
+}
+
+.foreslag .se-mere-pil{
+    padding-left: 250px;
+}
+
+.adobe{
+display: flex;
+}
+
+.adobe .se-alle{
+    padding-left: 288px;
+}
+
+.adobe #se-alle{
+    
+padding-left: 256px;
+}
+
+.adobe #se-alle2{
+    padding-left: 223px;
+}
+
+/* BEGIVENHEDER */
+
+
